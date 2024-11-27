@@ -1,5 +1,5 @@
 body {
-    background: #fce9a9 url(images/body.jpg) repeat;
+    background: #fce9a9;
     color: #000;
     font-family: Arial, sans-serif;
     font-size: 14px;  
@@ -7,7 +7,7 @@ body {
 }
 
 #block1 {
-    background: #fadc78 url(images/header.jpg) repeat-x;    
+    background: #fadc78;    
     width: 100%;
     height:100%;     
     font-family: Times New Roman;
@@ -16,7 +16,7 @@ body {
 }
 
 #header {
-    background: #fce9a9 url(images/header.jpg) repeat-x;    
+    background: #fce9a9;    
     width: 100%;
     height:100%;     
     font-family: Times New Roman;

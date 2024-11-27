@@ -1,5 +1,5 @@
 <?php
-require_once('connect_to_bd.php');
+require_once('scripts\connect_to_bd.php');
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);// включаем сообщения об ошибках
 $d->set_charset("utf8mb4"); // задаем кодировку
 $result = mysqli_query($d, "SELECT sm.Message_text as message_, au.User_login as user_ FROM `message` as sm, `about_user` as au 

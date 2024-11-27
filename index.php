@@ -1,6 +1,8 @@
 <?php
 include('head.php');
 include('header.php');
+require_once('scripts\connect_to_bd.php');
+
 ?>
 <html>
 <body>
@@ -9,15 +11,17 @@ include('header.php');
 		<h1>Страница регистрации на конференцию</h1>
 	</div>
 
-	<div class="block" id = "block1">
+	<form class="block" method="POST" id ="block1">
 	<p>
-		<p>Имя: <input type="text"></p>
-		<p>Фамилия: <input type="text"></p>
-		<p>E-mail: <input type="E-mail"></p>
-		<p>Дата: <input type="date" name="calendar">
-	   <input type="submit" value="Отправить"></p>
+		<p>Имя: <input type="text" id="name"></p>
+		<p>Фамилия: <input type="text" id="surname"></p>
+		<p>E-mail: <input type="E-mail" id="email"></p>
+		<p>Дата: <input type="date" name="calendar" id="data_birthday"> </p>
+        
+        <p><button type="submit" id ="button_submit">Подтвердить</button></p>
+        <p><button type="button" action="registered.php" id ="button_table" >Таблица участников</button></p>
 	</p>
-	</div>
+</form>
 
 </main>
 
@@ -25,7 +29,9 @@ include('header.php');
 
 </body>
 </html>
-
+<script>
+    require_once('send_reg.js');
+    </script>
 <?php
 include('footer.php');
 ?>
