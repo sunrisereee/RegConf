@@ -6,7 +6,7 @@
     $data_birthday = $_POST['data_birthday'];
     $email = $_POST['email'];
 
-    $sql = "INSERT INTO 'nametable' VALUES ('$surname','$name','$data_birthday','$email');";
+    $sql = "INSERT INTO 'participants' (p_lname, p_fname, p_date, p_mail) VALUES ('$surname','$name','$data_birthday','$email');";
 
     if (mysqli_query($d, $sql)){
         echo "Пользователь успешно зарегистрирован";
