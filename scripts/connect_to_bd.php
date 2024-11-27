@@ -1,6 +1,6 @@
 <?php
 
-    $d = mysqli_connect('localhost', 'root', '','task_2_website');
+    $d = mysqli_connect('localhost', 'root', '','conference');
     if(!$d){
         die (mysqli_connect_error());
     }
