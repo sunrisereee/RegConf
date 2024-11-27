@@ -5,17 +5,6 @@ include('header.php');
 <html>
 <body>
  <main class="first_main">
-    <form class="form_but" action="login.php" method="post">
-    <button type="submit" class="button_login">Login</button>
-    </form>
-    <div class="wrapper">
-        <div class="body_div">
-            <?php
-            require_once('scripts\message_view.php');
-            ?>
-        </div>
-    </div>
-
     <div class="block" id="header">
 		<h1>Страница регистрации на конференцию</h1>
 	</div>
