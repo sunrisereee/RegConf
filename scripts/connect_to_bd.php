@@ -4,5 +4,8 @@
     if(!$d){
         die (mysqli_connect_error());
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> scripts
 ?>
