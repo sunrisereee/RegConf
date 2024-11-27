@@ -1,0 +1,4 @@
+db `conference`
+table `participants`
+INSERT INTO `participants`(`p_id`, `p_fname`, `p_lname`, `p_date`, `p_mail`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')
+SELECT * FROM `participants` WHERE 1
