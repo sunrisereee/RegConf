@@ -29,9 +29,7 @@ require_once('scripts\connect_to_bd.php');
 
 </body>
 </html>
-<script>
-    require_once('send_reg.js');
-    </script>
+<script src="../send_reg.js"></script>
 <?php
 include('footer.php');
 ?>
