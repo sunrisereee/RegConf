@@ -8,7 +8,7 @@ include('header.php');
     <div class="wrapper">
         <div class="body_div">
             <?php
-            require_once('scripts\registered_view.php');
+            include('scripts\registered_view.php');
             ?>
         </div>
     </div>
